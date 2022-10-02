@@ -25,7 +25,7 @@ var defaults = {
 var ignoreNextComment = 'px-to-viewport-ignore-next';
 var ignorePrevComment = 'px-to-viewport-ignore';
 
-module.exports = postcss.plugin('postcss-px-to-viewport', function (options) {
+module.exports = postcss.plugin('postcss-px-to-viewport-leo', function (options) {
   var opts = objectAssign({}, defaults, options);
 
   checkRegExpOrArray(opts, 'exclude');
@@ -159,7 +159,7 @@ function createPxReplace(opts, viewportUnit, viewportSize) {
 }
 
 function error(decl, message) {
-  throw decl.error(message, { plugin: 'postcss-px-to-viewport' });
+  throw decl.error(message, { plugin: 'postcss-px-to-viewport-leo' });
 }
 
 function checkRegExpOrArray(options, optionName) {
