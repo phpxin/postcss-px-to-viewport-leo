@@ -6,10 +6,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:evrone/postcss-px-to-viewport-leo.git"
+    "url": "git@github.com:phpxin/postcss-px-to-viewport-leo.git"
   },
-  "bugs": "https://github.com/evrone/postcss-px-to-viewport-leo/issues",
-  "homepage": "https://github.com/evrone/postcss-px-to-viewport-leo",
+  "bugs": "https://github.com/phpxin/postcss-px-to-viewport-leo/issues",
+  "homepage": "https://github.com/phpxin/postcss-px-to-viewport-leo",
   "main": "index.js",
   "keywords": [
     "css",
